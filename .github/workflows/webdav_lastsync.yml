@@ -2,9 +2,7 @@ name: webdav_lastsync
 
 on:
   schedule:
-#     - cron: '0 6,9,12,15,18,21,23 * * *'
-#     - cron: '0 07,12 * * *'
-    - cron: '15 07,23 * * *'
+    - cron: '0 07,12 * * *'
 
 
   workflow_dispatch:
